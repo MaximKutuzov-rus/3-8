@@ -8,7 +8,7 @@ public class PiTri {
         if(args.length == 1){ //вывести N троек
             int N = Integer.parseInt(args[0]);
             int a = 0;
-            int i = 0;
+            int i = 1;
             while (i < N && a < 1000){
                 int b = 1;
                 while (i < N && b < 1000) {
